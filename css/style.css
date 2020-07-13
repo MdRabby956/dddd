@@ -1,0 +1,126 @@
+/*common section*/
+*{
+	margin: 0; 
+	padding: 0;
+}
+body{
+	font-family: "Brandon Grotesque";
+}
+p{
+	font-size: 18px;
+	color: #777777;
+	line-height: 25px;
+}
+a{
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+/*common section*/
+
+/*global section*/
+.container{
+	width: 75%;
+	margin: 0 auto;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+/*global section*/
+
+/*header start*/
+.header{
+	padding-top: 45px;
+	background: url(../images/banner.jpg);
+	min-height: 620px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.header .logo{
+	width: 15%;
+	float: left;
+}
+.header .logo img {
+  width: 100%;
+}
+
+.header .menu {
+  margin-top: 5px;
+  width: 65%;
+  float: right;
+}
+
+.header .menu ul {
+  float: right;
+}
+
+.header .menu ul li {
+  float: left;
+  margin: 0px 15px;
+  list-style-type: none;
+}
+
+.header .menu ul li:last-child {
+  margin-right: 0;
+}
+.header .menu ul li a{
+	font-family: "Brandon Grotesque", sans-serif;
+	font-size: 18px;
+	color: #ffffff;
+}
+.header .menu ul li a {
+  position: relative;
+  color: #ffffff;
+}
+
+.header .menu ul li a::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ffffff;
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
+}
+
+.header .menu ul li a:hover:before {
+  width: 100%;
+}
+.header .home_content{
+	border: 1px solid red;
+    margin-top: 150px;
+    text-align: center;
+}
+.header .home_content h2 {
+  font-size: 32px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.header .home_content h1{
+	margin-top: 40px;
+	font-size: 66px;
+	font-weight: 700;
+	color: #ffffff;
+}
+.header .home_content button{
+	width: 235px;
+	height: 60px;
+	font-family: 'Brandon Grotesque';
+	font-size: 23px;
+	font-weight: 700;
+}
+.header .home_content button:hover{
+	background-color: #ffffff;
+	color: #091b29;
+}
+.header .home_content button:focus{
+	outline: 0;
+}
+
+/*header end*/
+
